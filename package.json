@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankdb/portfolio.git"
+  },
+  "author": "Frank Barros <fd.barros@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankdb/portfolio/issues"
+  },
+  "homepage": "https://github.com/frankdb/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
