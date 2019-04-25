@@ -7,24 +7,18 @@ const app = express();
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }))
+app.use('/static', express.static('public'));
 
 app.set('views', './views');
 
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-  const data = {
-    person: {
-      firstName: 'Frank',
-      lastName: 'Barros'
-    }
-  }
-
-  res.render('index', data);
+  res.render('index');
 })
 
 app.get('/contact', (req, res) => {
-  res.render('contact');
+  res.render('contact2');
 });
 
 app.post('/thanks', (req, res) => {
