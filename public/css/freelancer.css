@@ -104,8 +104,8 @@ section h2 {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 3px;
+  padding-bottom: 5px;
   font-weight: 700;
   font-family: 'Montserrat';
 }
@@ -190,7 +190,7 @@ header.masthead h2 {
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
+    padding-bottom: 6.5rem;
   }
   header.masthead h1 {
     font-size: 4.75em;
