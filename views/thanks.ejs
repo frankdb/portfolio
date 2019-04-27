@@ -1,13 +1,34 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>Tom Thanks You</title>
+  <% include ./partials/head %>
 </head>
 
-<body>
+<body id="page-top">
+
+  <!-- Navigation -->
+  <% include ./partials/navmenu %>
+
   <div>
-    Thank you <%= contact.firstName %> <%= contact.lastName %>.
+
   </div>
+
+  <section class="bg-primary text-white mb-0" id="about">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-white">Thanks</h2>
+      <hr class="star-light mb-5">
+      <div class="row">
+        <div class="col-lg-8">
+          <p class="lead">Thank you <%= contact.firstName %> <%= contact.lastName %>. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <% include ./partials/footer %>
+
 </body>
 
 </html>

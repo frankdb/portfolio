@@ -140,7 +140,7 @@ section h2 {
   padding: 0.8rem;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -170,7 +170,7 @@ section h2 {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
-}
+} */
 
 header.masthead {
   padding-top: calc(6rem + 72px);
@@ -216,7 +216,7 @@ header.masthead h2 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: #1D82C1;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -224,7 +224,10 @@ header.masthead h2 {
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  /* text-transform: uppercase; */
+  padding: 20px;
 }
 
 @media (min-width: 576px) {
@@ -381,4 +384,22 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+/* .grow { 
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+} */
+
+.spin {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.spin:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
