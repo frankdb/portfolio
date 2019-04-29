@@ -50,7 +50,7 @@ app.post('/thanks', (req, res) => {
     url: 'https://us17.api.mailchimp.com/3.0/lists/19ec0ec430',
     method: 'POST',
     headers: {
-      Authorization: 'auth 9237ab80a182fec7d5f92b6ed96bc2ad-us17'
+      Authorization: 'auth'
     },
     body: postData
   }
