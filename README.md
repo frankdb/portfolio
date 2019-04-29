@@ -1,6 +1,6 @@
 # Node 200 EJS Portfolio
 
-This is my portfolio page built using the EJS template engine.
+This is my portfolio page built using Node, Express and the EJS template engine.
 
 ## Getting Started
 
