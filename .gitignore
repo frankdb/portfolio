@@ -1,4 +1,4 @@
 .DS_Store
 views/.DS_Store
 node_modules
-.ENV
+.env

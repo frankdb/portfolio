@@ -2,7 +2,7 @@ const express = require('express');
 const request = require('request');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
-const axios = require('axios');
+require('dotenv').config()
 
 const app = express();
 
@@ -50,7 +50,7 @@ app.post('/thanks', (req, res) => {
     url: 'https://us17.api.mailchimp.com/3.0/lists/19ec0ec430',
     method: 'POST',
     headers: {
-      Authorization: 'auth'
+      Authorization: process.env.HEROKU_API_KEY
     },
     body: postData
   }
