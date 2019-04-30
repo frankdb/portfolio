@@ -1,6 +1,6 @@
 # Node 200 EJS Portfolio
 
-This is my portfolio page built using Node, Express and the EJS template engine.
+This is my portfolio page built using Node, Express and the EJS template engine. You can view the page at: https://fbarros-portfolio.herokuapp.com/
 
 ## Getting Started
 
